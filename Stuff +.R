@@ -188,7 +188,7 @@ cat("Best correlation:", best_correlation, "\n")
 write.csv(PredictionFinal, "PredictFinal.csv")
 
 #Save model to working directory
-file_path <- "/Users/rileyfeltner/Desktop/Baseball Research/Stuff +/model_xgb.rds"
+file_path <- "Enter Your Path"
 
 saveRDS(model_xgb, file = file_path)
 
